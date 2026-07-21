@@ -26,7 +26,7 @@ A simple and modern Task Manager Web App built using HTML, CSS, and JavaScript.
 
 ## 📸 Preview
 
-(Add screenshot here later)
+
 
 ---
 
