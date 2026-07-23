@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚀To-Do App</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h1>🚀 To-Do List</h1>
+      <button class="dark-btn" onclick="toggleDarkMode()">🌙</button>
+    </div>
+
+    <!-- ANALYTICS DASHBOARD -->
+    <div class="analytics">
+
+      <h2>📊 Analytics</h2>
+
+      <div class="stats">
+        <div>
+          <h3 id="totalTasks">0</h3>
+          <p>Total Tasks</p>
+        </div>
+
+        <div>
+          <h3 id="completedTasks">0</h3>
+          <p>Completed</p>
+        </div>
+
+       <div>
+          <h3 id="productivity">0%</h3>
+          <p>Productivity</p>
+        </div>
+      </div>
+
+      <p>🔥 Most Productive Day:</p>
+        <strong id="productiveDay">Monday</strong>
+
+    </div>
+
+    <!-- PROGRESS -->
+    <div class="progress-container">
+      <div id="progressFill"></div>
+    </div>
+    <p id="progress">Completed: 0 / 0</p>
+    <p id="emptyMsg">No tasks yet 😴</p>
+
+    <!-- INPUT SECTION -->
+    <div class="input-section">
+
+      <input 
+        type="text" 
+        id="taskInput" 
+        placeholder="✍️ Enter a task..." 
+      />
+
+      <select id="priority">
+        <option value="low">🟢 Low</option>
+        <option value="medium">🟡 Medium</option>
+        <option value="high">🔴 High</option>
+      </select>
+      <select id="category">
+
+        <option value="Study">📚 Study</option>
+        <option value="Work">💼 Work</option>
+        <option value="Fitness">🏋 Fitness</option>
+        <option value="Personal">🏠 Personal</option>
+        <option value="Finance">💰 Finance</option>
+
+      </select>
+      
+
+      <input type="date" id="dueDate" />
+      <textarea 
+        id="notes"
+        placeholder="📝 Add notes..."
+      ></textarea>
+
+      <button class="add-btn" onclick="addTask()">
+        ➕ Add
+      </button>
+
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search task..."
+        onkeyup="displayTasks()"
+      />
+    </div>
+
+    <!-- FILTERS -->
+    <div class="filters">
+      <button onclick="filterTasks('all')">All</button>
+      <button onclick="filterTasks('completed')">✅ Done</button>
+      <button onclick="filterTasks('pending')">⏳ Pending</button>
+    </div>
+
+    <!-- TASK LIST -->
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
