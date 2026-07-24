@@ -1,44 +1,62 @@
 # 🚀 QuickTasks Pro
 
-A simple and modern Task Manager Web App built using HTML, CSS, and JavaScript.
+An advanced and modern **Task Management Web App** built using **HTML, CSS, and JavaScript**.  
+Designed with a clean UI and productivity-focused features to help users manage daily tasks efficiently.
 
-🔗 Live Demo: https://quicktasks-pro.netlify.app/
+🔗 **Live Demo:** https://quicktasks-pro.netlify.app/
 
 ---
 
 ## ✨ Features
 
-- ✅ Add tasks
-- ❌ Delete tasks
-- 🎯 Clean and modern UI
-- 📱 Responsive design (mobile-friendly)
-- Dark & Light mode 
+- ✅ Add, delete, and manage tasks  
+- 📊 Productivity Dashboard with Analytics  
+- 📁 Task Categories  
+- 📝 Notes & Task Details  
+- 🌙 Dark & Light Mode  
+- 💾 Local Storage (data persists after refresh)  
+- 📱 Fully Responsive (mobile, tablet, desktop)  
+- 🎯 Clean & modern UI/UX  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+- HTML5  
+- CSS3 (Flexbox, Responsive Design)  
+- JavaScript (Vanilla JS)  
+- LocalStorage API  
 
 ---
 
 ## 📸 Preview
 
+![App Screenshot 1](https://github.com/user-attachments/assets/49344b0d-6410-4562-bd3a-d1a75a865537)
 
+![App Screenshot 2](https://github.com/user-attachments/assets/e65284e0-e865-41f4-aa94-0d38554b2567)
 
 ---
 
-<img width="1297" height="462" alt="Screenshot (563)" src="https://github.com/user-attachments/assets/49344b0d-6410-4562-bd3a-d1a75a865537" />
-<img width="1297" height="555" alt="Screenshot (562)" src="https://github.com/user-attachments/assets/e65284e0-e865-41f4-aa94-0d38554b2567" />
+## ⚡ How It Works
 
+1. Add your daily tasks  
+2. Track completed vs pending tasks  
+3. View analytics and productivity stats  
+4. Organize tasks using categories  
+5. Data automatically saves in browser  
+
+---
+
+## 🚀 Deployment
+
+- Hosted on **Netlify**
+- Connected with **GitHub for continuous deployment**
 
 ---
 
 ## 👨‍💻 Author
 
-**[Sunny Kumar]**
+**Sunny Kumar**
 
 - GitHub: https://github.com/sunny-kumar-dev
 
@@ -46,19 +64,25 @@ A simple and modern Task Manager Web App built using HTML, CSS, and JavaScript.
 
 ## ⭐ Show your support
 
-If you like this project, please give it a ⭐ on GitHub!
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
+
+## 🔥 Project Highlights
+
+- Built from scratch using Vanilla JavaScript  
+- Focus on UI/UX and real-world usability  
+- Portfolio-ready project with live deployment  
 
 ---
 
 ## 💡 Future Scope
 
-This project will be improved with advanced features like:
-
-- 🌙 Dark Mode  
-- 💾 Local Storage (Save tasks)  
-- 🔔 Reminder system  
-- 🎯 Drag & Drop functionality  
+- 🔔 Reminder & Notification System  
+- 🔄 Drag & Drop Tasks  
+- 🔐 User Authentication  
+- ☁️ Cloud Sync  
 
 ---
 
-## 🚀 Built with passion and consistency 💯
+## 🚀 Built with passion, consistency, and real-world learning 💯
