@@ -1,5 +1,3 @@
-<img width="1130" height="609" alt="Screenshot (629)" src="https://github.com/user-attachments/assets/3c5176ea-01b3-474e-b737-9464c5a0ff52" />
-<img width="1172" height="617" alt="Screenshot (630)" src="https://github.com/user-attachments/assets/e81efb54-0762-41c9-a803-e8ae7d898337" />
 # 🚀 QuickTasks Pro
 
 An advanced and modern **Task Management Web App** built using **HTML, CSS, and JavaScript**.  
@@ -33,10 +31,9 @@ Designed with a clean UI and productivity-focused features to help users manage 
 
 ## 📸 Preview
 
-![App Screenshot 1](https://github.com/user-attachments/assets/49344b0d-6410-4562-bd3a-d1a75a865537)
+<img width="1172" height="617" alt="Screenshot (630)" src="https://github.com/user-attachments/assets/e81efb54-0762-41c9-a803-e8ae7d898337" />
 
-![App Screenshot 2](https://github.com/user-attachments/assets/e65284e0-e865-41f4-aa94-0d38554b2567)
-
+<img width="1130" height="609" alt="Screenshot (629)" src="https://github.com/user-attachments/assets/3c5176ea-01b3-474e-b737-9464c5a0ff52" />
 ---
 
 ## ⚡ How It Works
