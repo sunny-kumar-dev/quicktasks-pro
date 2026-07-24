@@ -1,3 +1,5 @@
+<img width="1130" height="609" alt="Screenshot (629)" src="https://github.com/user-attachments/assets/3c5176ea-01b3-474e-b737-9464c5a0ff52" />
+<img width="1172" height="617" alt="Screenshot (630)" src="https://github.com/user-attachments/assets/e81efb54-0762-41c9-a803-e8ae7d898337" />
 # 🚀 QuickTasks Pro
 
 An advanced and modern **Task Management Web App** built using **HTML, CSS, and JavaScript**.  
